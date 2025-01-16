@@ -1,0 +1,152 @@
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+body {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+#index-img {
+  float: left;
+  width: 100%;
+}
+
+#figure {
+  float: left;
+  width: 35%;
+  height: auto;
+  padding-right: 10px ;
+}
+
+
+div p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+
+figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px auto;
+  padding: 10px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+
+figure img {
+  width: 100%;
+  height: 50%;
+  border-radius: 5px;
+  display: block;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the caption */
+figcaption {
+  text-align: center; /* Center-align the text */
+  font-size: 1rem; /* Responsive text size */
+  color: #555; /* Gray color for the caption text */
+  margin-top: 8px; /* Add spacing between the image and caption */
+  padding: 5px; /* Optional: Add some padding */
+  word-wrap: break-word; /* Ensure long text breaks properly */
+}
+
+
+
+.navbar {
+  background: #105e6e;
+  font-family: "Calibri Light", cursive;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display:  inline;
+  color: white;
+  padding: 10px;
+}
+
+li a {
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+footer {
+  background-color: #333;
+  padding: 0.1em;
+  clear: both;
+  display: block;
+  unicode-bidi: isolate;
+  text-align: center;
+}
+
+footer p {
+  color: white;
+}
+
+.banner {
+  background-image: url(/cloud-storage-banner-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+input [type='text'], input [type='email'], textarea {
+  display: block;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+
+.social-icon {
+  display: inline-block;
+  bottom: 10px;
+  left: 10px;
+  z-index: 1000;
+}
+
+
+.social-icon img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+
+.social-icon img:hover {
+  transform: scale(1.1);
+}
+
+
+
