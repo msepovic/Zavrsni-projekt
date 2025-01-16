@@ -108,7 +108,7 @@ footer p {
 }
 
 .banner {
-  background-image: url(/cloud-storage-banner-background.jpg);
+  background-image: url(cloud-storage-banner-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 200px;
