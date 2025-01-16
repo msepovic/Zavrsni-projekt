@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="css/style.css">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+  <title>Contact</title>
+</head>
+<body>
+  <header>
+    <div class="banner"></div>
+    <nav class="navbar">
+      <ul class="navdiv">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="about.html">About us</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Contact us</h1>
+  <div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2516.999302978863!2d15.986847875779368!3d45.803752310719815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4765d65086e58aeb%3A0xa320d4cddc2913d0!2sStrojarska%20cesta%2020%2C%2010000%2C%20Zagreb!5e1!3m2!1sen!2shr!4v1736965190182!5m2!1sen!2shr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+  <form action="script.php" method="post">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your first name.."><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Your email.."><br>
+    <label for="country">Country:</label><br>
+    <select id="country" name="country">
+      <option>Please select</option>
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="croatia">Croatia</option>
+    </select>
+    <br>
+    <label for="message">Message:</label><br>
+    <textarea id="message" name="message" placeholder="Your message.." style="height:200px"></textarea><br>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+
+<footer>
+  <p id="footer">Copyright Mijo Sepovic 2024 - All Rights Reserved</p>
+</footer>
+
+</html>
